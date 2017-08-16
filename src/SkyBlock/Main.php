@@ -374,104 +374,104 @@ class Main extends Base implements Listener{
 			$levelName->setBlock(new Vector3($randX+6, $Y-1, $randZ+1), new Sand());
 			
 			// 2nd side
-			$levelName->setBlock(new Vector3($randX+5, $Y-1, $randZ+6), new Sand());
-			$levelName->setBlock(new Vector3($randX+5, $Y-1, $randZ+5), new Sand());
-			$levelName->setBlock(new Vector3($randX+5, $Y-1, $randZ+4), new Sand());
-			$levelName->setBlock(new Vector3($randX+5, $Y-1, $randZ+3), new Sand());
-			$levelName->setBlock(new Vector3($randX+5, $Y-1, $randZ+2), new Sand());
-			$levelName->setBlock(new Vector3($randX+5, $Y-1, $randZ+1), new Sand());
+			$level->setBlock(new Vector3($randX+5, $Y-1, $randZ+6), new Sand());
+			$level->setBlock(new Vector3($randX+5, $Y-1, $randZ+5), new Sand());
+			$level->setBlock(new Vector3($randX+5, $Y-1, $randZ+4), new Sand());
+			$level->setBlock(new Vector3($randX+5, $Y-1, $randZ+3), new Sand());
+			$level->setBlock(new Vector3($randX+5, $Y-1, $randZ+2), new Sand());
+			$level->setBlock(new Vector3($randX+5, $Y-1, $randZ+1), new Sand());
 			
 			// 3rd side
-			$levelName->setBlock(new Vector3($randX+4, $Y-1, $randZ+6), new Sand());
-			$levelName->setBlock(new Vector3($randX+4, $Y-1, $randZ+5), new Sand());
-			$levelName->setBlock(new Vector3($randX+4, $Y-1, $randZ+4), new Sand());
-			$levelName->setBlock(new Vector3($randX+4, $Y-1, $randZ+3), new Sand());
-			$levelName->setBlock(new Vector3($randX+4, $Y-1, $randZ+2), new Sand());
-			$levelName->setBlock(new Vector3($randX+4, $Y-1, $randZ+1), new Sand());
+			$level->setBlock(new Vector3($randX+4, $Y-1, $randZ+6), new Sand());
+			$level->setBlock(new Vector3($randX+4, $Y-1, $randZ+5), new Sand());
+			$level->setBlock(new Vector3($randX+4, $Y-1, $randZ+4), new Sand());
+			$level->setBlock(new Vector3($randX+4, $Y-1, $randZ+3), new Sand());
+			$level->setBlock(new Vector3($randX+4, $Y-1, $randZ+2), new Sand());
+			$level->setBlock(new Vector3($randX+4, $Y-1, $randZ+1), new Sand());
 			
 			// 4th side
-			$levelName->setBlock(new Vector3($randX+3, $Y-1, $randZ+6), new Sand());
-			$levelName->setBlock(new Vector3($randX+3, $Y-1, $randZ+5), new Sand());
-			$levelName->setBlock(new Vector3($randX+3, $Y-1, $randZ+4), new Sand());
-			$levelName->setBlock(new Vector3($randX+3, $Y-1, $randZ+3), new Sand());
-			$levelName->setBlock(new Vector3($randX+3, $Y-1, $randZ+2), new Sand());
-			$levelName->setBlock(new Vector3($randX+3, $Y-1, $randZ+1), new Sand());
+			$level->setBlock(new Vector3($randX+3, $Y-1, $randZ+6), new Sand());
+			$level->setBlock(new Vector3($randX+3, $Y-1, $randZ+5), new Sand());
+			$level->setBlock(new Vector3($randX+3, $Y-1, $randZ+4), new Sand());
+			$level->setBlock(new Vector3($randX+3, $Y-1, $randZ+3), new Sand());
+			$level->setBlock(new Vector3($randX+3, $Y-1, $randZ+2), new Sand());
+			$level->setBlock(new Vector3($randX+3, $Y-1, $randZ+1), new Sand());
 			
 			// 5th side
-			$levelName->setBlock(new Vector3($randX+2, $Y-1, $randZ+6), new Sand());
-			$levelName->setBlock(new Vector3($randX+2, $Y-1, $randZ+5), new Sand());
-			$levelName->setBlock(new Vector3($randX+2, $Y-1, $randZ+4), new Sand());
-			$levelName->setBlock(new Vector3($randX+2, $Y-1, $randZ+3), new Sand());
-			$levelName->setBlock(new Vector3($randX+2, $Y-1, $randZ+2), new Sand());
-			$levelName->setBlock(new Vector3($randX+2, $Y-1, $randZ+1), new Sand());
+			$level->setBlock(new Vector3($randX+2, $Y-1, $randZ+6), new Sand());
+			$level->setBlock(new Vector3($randX+2, $Y-1, $randZ+5), new Sand());
+			$level->setBlock(new Vector3($randX+2, $Y-1, $randZ+4), new Sand());
+			$level->setBlock(new Vector3($randX+2, $Y-1, $randZ+3), new Sand());
+			$level->setBlock(new Vector3($randX+2, $Y-1, $randZ+2), new Sand());
+			$level->setBlock(new Vector3($randX+2, $Y-1, $randZ+1), new Sand());
 			
 			// 6th side
-			$levelName->setBlock(new Vector3($randX+1, $Y-1, $randZ+6), new Sand());
-			$levelName->setBlock(new Vector3($randX+1, $Y-1, $randZ+5), new Sand());
-			$levelName->setBlock(new Vector3($randX+1, $Y-1, $randZ+4), new Sand());
-			$levelName->setBlock(new Vector3($randX+1, $Y-1, $randZ+3), new Sand());
-			$levelName->setBlock(new Vector3($randX+1, $Y-1, $randZ+2), new Sand());
-			$levelName->setBlock(new Vector3($randX+1, $Y-1, $randZ+1), new Sand());
+			$level->setBlock(new Vector3($randX+1, $Y-1, $randZ+6), new Sand());
+			$level->setBlock(new Vector3($randX+1, $Y-1, $randZ+5), new Sand());
+			$level->setBlock(new Vector3($randX+1, $Y-1, $randZ+4), new Sand());
+			$level->setBlock(new Vector3($randX+1, $Y-1, $randZ+3), new Sand());
+			$level->setBlock(new Vector3($randX+1, $Y-1, $randZ+2), new Sand());
+			$level->setBlock(new Vector3($randX+1, $Y-1, $randZ+1), new Sand());
 			
 			
 			
 			// Bottom layer of the island
 			
 			// 1st side
-			$levelName->setBlock(new Vector3($randX, $Y-2, $randZ), new Dirt());
-			$levelName->setBlock(new Vector3($randX+6, $Y-2, $randZ+6), new Dirt());
-			$levelName->setBlock(new Vector3($randX+6, $Y-2, $randZ+5), new Dirt());
-			$levelName->setBlock(new Vector3($randX+6, $Y-2, $randZ+4), new Dirt());
-			$levelName->setBlock(new Vector3($randX+6, $Y-2, $randZ+3), new Dirt());
-			$levelName->setBlock(new Vector3($randX+6, $Y-2, $randZ+2), new Dirt());
-			$levelName->setBlock(new Vector3($randX+6, $Y-2, $randZ+1), new Dirt());
+			$level->setBlock(new Vector3($randX, $Y-2, $randZ), new Dirt());
+			$level->setBlock(new Vector3($randX+6, $Y-2, $randZ+6), new Dirt());
+			$level->setBlock(new Vector3($randX+6, $Y-2, $randZ+5), new Dirt());
+			$level->setBlock(new Vector3($randX+6, $Y-2, $randZ+4), new Dirt());
+			$level->setBlock(new Vector3($randX+6, $Y-2, $randZ+3), new Dirt());
+			$level->setBlock(new Vector3($randX+6, $Y-2, $randZ+2), new Dirt());
+			$level->setBlock(new Vector3($randX+6, $Y-2, $randZ+1), new Dirt());
 			
 			// 2nd side
-			$levelName->setBlock(new Vector3($randX+5, $Y-2, $randZ+6), new Dirt());
-			$levelName->setBlock(new Vector3($randX+5, $Y-2, $randZ+5), new Dirt());
-			$levelName->setBlock(new Vector3($randX+5, $Y-2, $randZ+4), new Dirt());
-			$levelName->setBlock(new Vector3($randX+5, $Y-2, $randZ+3), new Dirt());
-			$levelName->setBlock(new Vector3($randX+5, $Y-2, $randZ+2), new Dirt());
-			$levelName->setBlock(new Vector3($randX+5, $Y-2, $randZ+1), new Dirt());
+			$level->setBlock(new Vector3($randX+5, $Y-2, $randZ+6), new Dirt());
+			$level->setBlock(new Vector3($randX+5, $Y-2, $randZ+5), new Dirt());
+			$level->setBlock(new Vector3($randX+5, $Y-2, $randZ+4), new Dirt());
+			$level->setBlock(new Vector3($randX+5, $Y-2, $randZ+3), new Dirt());
+			$level->setBlock(new Vector3($randX+5, $Y-2, $randZ+2), new Dirt());
+			$level->setBlock(new Vector3($randX+5, $Y-2, $randZ+1), new Dirt());
 			
 			// 3rd side
-			$levelName->setBlock(new Vector3($randX+4, $Y-2, $randZ+6), new Dirt());
-			$levelName->setBlock(new Vector3($randX+4, $Y-2, $randZ+5), new Dirt());
-			$levelName->setBlock(new Vector3($randX+4, $Y-2, $randZ+4), new Dirt());
-			$levelName->setBlock(new Vector3($randX+4, $Y-2, $randZ+3), new Dirt());
-			$levelName->setBlock(new Vector3($randX+4, $Y-2, $randZ+2), new Dirt());
-			$levelName->setBlock(new Vector3($randX+4, $Y-2, $randZ+1), new Dirt());
+			$level->setBlock(new Vector3($randX+4, $Y-2, $randZ+6), new Dirt());
+			$level->setBlock(new Vector3($randX+4, $Y-2, $randZ+5), new Dirt());
+			$level->setBlock(new Vector3($randX+4, $Y-2, $randZ+4), new Dirt());
+			$level->setBlock(new Vector3($randX+4, $Y-2, $randZ+3), new Dirt());
+			$level->setBlock(new Vector3($randX+4, $Y-2, $randZ+2), new Dirt());
+			$level->setBlock(new Vector3($randX+4, $Y-2, $randZ+1), new Dirt());
 			
 			// 4th side
-			$levelName->setBlock(new Vector3($randX+3, $Y-2, $randZ+6), new Dirt());
-			$levelName->setBlock(new Vector3($randX+3, $Y-2, $randZ+5), new Dirt());
-			$levelName->setBlock(new Vector3($randX+3, $Y-2, $randZ+4), new Dirt());
-			$levelName->setBlock(new Vector3($randX+3, $Y-2, $randZ+3), new Dirt());
-			$levelName->setBlock(new Vector3($randX+3, $Y-2, $randZ+2), new Dirt());
-			$levelName->setBlock(new Vector3($randX+3, $Y-2, $randZ+1), new Dirt());
+			$level->setBlock(new Vector3($randX+3, $Y-2, $randZ+6), new Dirt());
+			$level->setBlock(new Vector3($randX+3, $Y-2, $randZ+5), new Dirt());
+			$level->setBlock(new Vector3($randX+3, $Y-2, $randZ+4), new Dirt());
+			$level->setBlock(new Vector3($randX+3, $Y-2, $randZ+3), new Dirt());
+			$level->setBlock(new Vector3($randX+3, $Y-2, $randZ+2), new Dirt());
+			$level->setBlock(new Vector3($randX+3, $Y-2, $randZ+1), new Dirt());
 			
 			// 5th side
-			$levelName->setBlock(new Vector3($randX+2, $Y-2, $randZ+6), new Dirt());
-			$levelName->setBlock(new Vector3($randX+2, $Y-2, $randZ+5), new Dirt());
-			$levelName->setBlock(new Vector3($randX+2, $Y-2, $randZ+4), new Dirt());
-			$levelName->setBlock(new Vector3($randX+2, $Y-2, $randZ+3), new Dirt());
-			$levelName->setBlock(new Vector3($randX+2, $Y-2, $randZ+2), new Dirt());
-			$levelName->setBlock(new Vector3($randX+2, $Y-2, $randZ+1), new Dirt());
+			$level->setBlock(new Vector3($randX+2, $Y-2, $randZ+6), new Dirt());
+			$level->setBlock(new Vector3($randX+2, $Y-2, $randZ+5), new Dirt());
+			$level->setBlock(new Vector3($randX+2, $Y-2, $randZ+4), new Dirt());
+			$level->setBlock(new Vector3($randX+2, $Y-2, $randZ+3), new Dirt());
+			$level->setBlock(new Vector3($randX+2, $Y-2, $randZ+2), new Dirt());
+			$level->setBlock(new Vector3($randX+2, $Y-2, $randZ+1), new Dirt());
 			
 			// 6th side
-			$levelName->setBlock(new Vector3($randX+1, $Y-2, $randZ+6), new Dirt());
-			$levelName->setBlock(new Vector3($randX+1, $Y-2, $randZ+5), new Dirt());
-			$levelName->setBlock(new Vector3($randX+1, $Y-2, $randZ+4), new Dirt());
-			$levelName->setBlock(new Vector3($randX+1, $Y-2, $randZ+3), new Dirt());
-			$levelName->setBlock(new Vector3($randX+1, $Y-2, $randZ+2), new Dirt());
-			$levelName->setBlock(new Vector3($randX+1, $Y-2, $randZ+1), new Dirt());
+			$level->setBlock(new Vector3($randX+1, $Y-2, $randZ+6), new Dirt());
+			$level->setBlock(new Vector3($randX+1, $Y-2, $randZ+5), new Dirt());
+			$level->setBlock(new Vector3($randX+1, $Y-2, $randZ+4), new Dirt());
+			$level->setBlock(new Vector3($randX+1, $Y-2, $randZ+3), new Dirt());
+			$level->setBlock(new Vector3($randX+1, $Y-2, $randZ+2), new Dirt());
+			$level->setBlock(new Vector3($randX+1, $Y-2, $randZ+1), new Dirt());
 			
 			// Tree
 			$type = 0;
-			Tree::growTree($levelName, $randX+6, $Y+1, $randZ+6, new Random(mt_rand()), Sapling::OAK);
+			Tree::growTree($level, $randX+6, $Y+1, $randZ+6, new Random(mt_rand()), Sapling::OAK);
 			
 			// Teleport the player to their new island
-			$player->teleport(new Position($randX, $Y+5, $randZ, $this->getServer()->getLevelByName, string($levelName)));
+			$player->teleport(new Position($randX, $Y+5, $randZ, $this->getServer()->getLevelByName($level)));
 			$player->sendMessage(TextFormat::GREEN . "Welcome to your new island");
 			$player->sendMessage(TextFormat::GREEN . "If your island didn't spawn,");
 			$player->sendMessage(TextFormat::GREEN . "Use /is delete");

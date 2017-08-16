@@ -1,0 +1,7 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/TheFixerDevelopment/SkyBlock-2
+branches:
+- master
+projects:
+  SkyBlock-2:
+    path: ""
+...

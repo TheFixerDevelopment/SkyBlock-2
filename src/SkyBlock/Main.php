@@ -73,7 +73,7 @@ class Main extends Base implements Listener{
 						$senderIs = $this->getDataFolder()."Islands/".$sender->getName().".yml";
 						$playerLevel = $sender->getLevel()->getName();
 						$skyblockWorlds = $this->getConfig()->get("Worlds");
-						if(!(in_array, boolean($playerLevel, $skyblockWorlds))){
+						if(!(array($playerLevel, $skyblockWorlds))){
 							$sender->sendMessage("You aren't in a skyblock world!");
 							return true;
 						}else{
